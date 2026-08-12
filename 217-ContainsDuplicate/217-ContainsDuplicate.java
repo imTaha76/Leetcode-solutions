@@ -1,4 +1,4 @@
-// Last updated: 8/13/2026, 12:49:13 AM
+// Last updated: 8/13/2026, 12:52:05 AM
 1import java.util.HashMap;
 2class Solution {
 3    public boolean containsDuplicate(int[] nums) {
@@ -10,14 +10,16 @@
 9            }
 10            else{
 11                Counts.put(i , Counts.get(i) + 1);
-12            }
-13        }
-14        for(int j : nums){
-15            if(Counts.get(j) > 1){
-16                result = true;
-17                break;
-18            }
-19        }
-20        return result;
-21    }
-22}
+12                result = true;
+13                break;
+14            }
+15        }
+16        // for(int j : nums){
+17        //     if(Counts.get(j) > 1){
+18        //         result = true;
+19        //         break;
+20        //     }
+21        // }
+22        return result;
+23    }
+24}
