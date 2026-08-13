@@ -1,20 +1,21 @@
-// Last updated: 8/13/2026, 11:49:44 PM
+// Last updated: 8/14/2026, 12:03:41 AM
 1class Solution {
 2    public void moveZeroes(int[] nums) {
-3        int j = 0;
-4
-5        // Move all non-zero elements to the front
-6        for (int i = 0; i < nums.length; i++) {
-7            if (nums[i] != 0) {
-8                nums[j] = nums[i];
-9                j++;
-10            }
-11        }
-12
-13        // Fill the remaining positions with zero
-14        while (j < nums.length) {
-15            nums[j] = 0;
-16            j++;
-17        }
-18    }
-19}
+3        int n = nums.length;
+4        int j = 0;
+5        for(int i = 0; i < n; i++){
+6            if(nums[i] != 0){
+7                nums[j] = nums[i];
+8                j++;
+9            }
+10        }
+11        while(j < n){
+12            nums[j] = 0;
+13            j++;
+14        }
+15
+16        System.out.print(nums);
+17
+18      
+19    }
+20}
