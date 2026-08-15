@@ -1,4 +1,4 @@
-// Last updated: 8/15/2026, 11:48:25 PM
+// Last updated: 8/15/2026, 11:49:15 PM
 1import java.util.Arrays;
 2class Solution {
 3    public List<List<Integer>> threeSum(int[] nums) {
@@ -6,7 +6,7 @@
 5        int n = nums.length;
 6        Arrays.sort(nums);
 7        // int i = 0;
-8        for(int i = 0; i < n; i++){
+8        for(int i = 0; i < n-2; i++){
 9
 10        int j = i+1;
 11        int k = n-1;
