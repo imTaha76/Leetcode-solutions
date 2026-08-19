@@ -1,4 +1,4 @@
-// Last updated: 8/19/2026, 6:55:25 PM
+// Last updated: 8/19/2026, 6:55:48 PM
 1class Solution {
 2    public boolean uniqueOccurrences(int[] arr) {
 3        int n = arr.length;
@@ -21,18 +21,6 @@
 20             set.add(num);
 21
 22        }
-23        //     if(values.size() == 1){
-24        //         return true;
-25        //         ;
-26        //     }
-27        // for(int j = 0; j < values.size()-1; j++){
-28        //     if(values.get(j) == values.get(j+1)){
-29        //         result = false;
-30        //     }
-31        //     else{
-32        //         result = true;
-33        //     }
-34        // }
-35           return true;
-36    }
-37}
+23           return true;
+24    }
+25}
