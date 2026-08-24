@@ -1,4 +1,4 @@
-// Last updated: 8/22/2026, 11:48:58 PM
+// Last updated: 8/24/2026, 11:38:23 PM
 1class Solution {
 2    public int peakIndexInMountainArray(int[] arr) {
 3        int n = arr.length;
