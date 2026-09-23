@@ -1,4 +1,4 @@
-// Last updated: 9/23/2026, 11:58:20 PM
+// Last updated: 9/24/2026, 12:06:07 AM
 1class Solution {
 2    static int factorial(int num){
 3        if(num==0){
