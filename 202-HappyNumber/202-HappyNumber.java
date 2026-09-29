@@ -1,4 +1,4 @@
-// Last updated: 9/30/2026, 12:32:31 AM
+// Last updated: 9/30/2026, 12:32:45 AM
 1class Solution {
 2    static boolean recursion(int n) {
 3        if (n == 1) {
